@@ -138,10 +138,7 @@ script), each with `--array=0-4` indexing the five scenarios defined in
 ```
 
 To rerun or retune a single script/scenario combination, submit its
-`.sbatch` file directly, e.g. `sbatch submit_snowfall.sbatch`. See
-[PARALLELIZATION.md](PARALLELIZATION.md) for memory-tuning knobs
-(`TIME_CHUNK`, `SNOWDEPTH_TIME_CHUNK`) and the rationale behind the
-per-script job split.
+`.sbatch` file directly, e.g. `sbatch submit_snowfall.sbatch`.
 
 ## Dependencies
 
