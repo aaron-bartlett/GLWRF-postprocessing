@@ -1,0 +1,24 @@
+# Archive Directories and Copies
+ARCHIVE/
+*tar
+*tar.gz
+scripts/ARCHIVE/
+test.py
+wrfout*
+wrfxtrm*
+
+# Logs
+log.*
+slurm*.out
+scripts/*.log
+scripts/slurm*.out
+
+# Output Directories
+output/
+output_new/
+header*.txt
+
+# FVCOM-forcing related files
+
+FVCOM_FORCING/
+*fvcom*.py
