@@ -1,0 +1,14 @@
+name: wrf-postproc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - netcdf4
+  - numpy
+  - xarray
+  - matplotlib
+  - cartopy
+  - wrf-python
+  - dask
+prefix: /home/Aaron.Bartlett/.conda/envs/wrf-postproc
