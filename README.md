@@ -10,8 +10,6 @@ the raw decade-scale model output.
 For the full list of output variables — description, units, WRF source
 variable, and data shape — see **[VARIABLES.md](VARIABLES.md)**.
 
-For notes on memory/runtime characteristics and the SLURM parallelization
-strategy, see **[PARALLELIZATION.md](PARALLELIZATION.md)**.
 
 ## Pipeline overview
 
